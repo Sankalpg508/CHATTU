@@ -85,6 +85,7 @@ const shrinkHeader = keyframes`
 
 function Header() {
   const navigate = useNavigate();
+console.log('Header');
 
   const [isMobile, setIsMobile] = useState(false);
   const [isSearch, setIsSearch] = useState(false);
